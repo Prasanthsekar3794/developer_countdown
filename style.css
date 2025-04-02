@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#countdown {
+    font-size: 8rem;
+    font-weight: bold;
+    color: aqua;
+    transition: all 0.3s ease-in-out;
+}
+
+div{
+    font-size: 250px;
+    font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+@media screen and (max-width:1070px){
+
+    
+    h1{
+       
+        font-size: 50px;
+        
+    }
+   
+    
+}
+@media screen and (max-width:625px){
+
+    
+    h1{
+         
+        font-size: 40px;
+        
+    }
+   
+    
+}
+
+@media screen and (max-width:534px){
+
+    
+    h1{
+        margin-top: -50%;
+        margin-left:0%;
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+   
+    
+}
+
+
